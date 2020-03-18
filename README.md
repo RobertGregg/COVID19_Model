@@ -4,8 +4,7 @@ Viral infection generally follows a logistic growth curve. A population is infec
 
 The model being fit to the COVID19 dataset is:
 
-$$
-f(t) = \frac{L}{1+exp(-k(t-t_0)},
-$$
+<img src="images\GrowthEq.png" alt="GrowthEq" style="zoom:75%;" />
 
-where $L$ is the carrying capacity, $k$ is the growth rate (how steep the curve is), and $t_0$ is the time halfway to saturation. The output here is the number of aggregated US cases given a time $t$ after the first case. See the code or pdf for more details.
+
+where L is the carrying capacity, k is the growth rate (how steep the curve is), and t0 is the time halfway to saturation. The output here is the number of aggregated US cases given a time t after the first case. See the code or pdf for more details.
